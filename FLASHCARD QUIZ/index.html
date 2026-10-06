@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Flashcard Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Flashcard Quiz App</h1>
+
+    <div class="container">
+
+        <!-- Flashcard -->
+
+        <div class="flashcard">
+
+            <div id="question">
+                What is HTML?
+            </div>
+
+            <div id="answer">
+                HTML stands for HyperText Markup Language.
+            </div>
+
+        </div>
+
+
+        <!-- Show Answer -->
+
+        <button onclick="showAnswer()">
+            Show Answer
+        </button>
+
+
+        <!-- Navigation -->
+
+        <div class="navigation">
+
+            <button onclick="previousCard()">
+                Previous
+            </button>
+
+            <button onclick="nextCard()">
+                Next
+            </button>
+
+        </div>
+
+
+        <!-- Manage Cards -->
+
+        <div class="manage-buttons">
+
+            <button onclick="addCard()">
+                Add Card
+            </button>
+
+            <button onclick="editCard()">
+                Edit Card
+            </button>
+
+            <button onclick="deleteCard()">
+                Delete Card
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
